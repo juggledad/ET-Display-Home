@@ -9,3 +9,4 @@ It then proceeds to scan your network looking for ESPeasy, Tasmota or Homie flas
 
 There is also a section on the dashboard that will allow you to delete 'ghost' devices by IP address. 'Ghost' devices occur when you flash a device and it is assigned an IP address and that device is found and stored in the database. Subsequently you change the IP address of the device. The original database entry exists and is now a 'ghost'.
 
+![Image description](https://github.com/juggledad/ET-Display-Home/blob/master/ET_Display_Home.png)
