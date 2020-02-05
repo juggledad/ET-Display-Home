@@ -1,0 +1,50 @@
+Version
+- 0.1.17 - removed code added in v0.1.12 since 'crashes' is used in a fix in current version 
+  of espeasy. Removed extra 'debug' nodes - moved source to GitHub
+
+- 0.1.16 - ``Run Step 2`` fixed bug where IP wasn't linking to devices
+
+- 0.1.15 - added code to handle 'Homie' devices
+
+- 0.1.14 - add code to only display ESPEasy releases with 
+  `href="/psy0rz">psy0rz</a> released this`
+  included. Changed node creating inserts from **change** to **template** node
+
+- 0.1.13 - added button to show/hide the 'Ghost' IP delete panel
+
+- 0.1.12 - added code to ignore releases with the word "crashes"
+ 
+- 0.1.10 - fixed a display issue caused by ESPeasy changing the names in their JSON output.
+  
+- 0.1.09 - ``Run Step 2 if upgrading from v0.1.7 or earlier``Added code to allow you to delete 
+  'Ghost' nodes. - A 'Ghost' IP is one from a device where you change it's original IP address
+  after it has been discovered. Also added some color to the display.
+
+- 0.1.08a - ``Run Step 2 if upgrading from v0.1.7 or earlier``found a small bug that wouldn't 
+  let you link to the latest Tasmota release. Also slipped in code to subtract 100 from the 
+  tasmota RSSI value to be consistant with the espeasy RSSI values
+
+- 0.1.08 - ``Run Step 2`` changed the primary key of the nodes table to 
+  be the IP address and added a new column for the firmware type.
+
+- 0.1.07 - Typo's and cleaning up some labels, removed some debugging, 
+  changed display to color node green when online and orange when offline
+
+- 0.1.06 - ``Run Step 2`` changed database name, added column to release table, 
+  added Tasmota release link, changed name to **ET Display Home**, 
+  added code to grab the base IP automatically
+
+- 0.1.05 - added logic to show Sonoff devices - changed the name
+
+- 0.1.04 - ``Run Step 2`` made a change to drop/create tables instead of 
+  deleting the DB's file and recreating the tables. 
+  That was causing an error forcing the need to stop/start NR.
+
+- 0.1.03 - Added new items to the display
+
+- 0.1.02 - bug fix's
+
+- 0.1.01 - finally a working version
+
+- 0.1.00 - an idea that I want to make work
+ 
