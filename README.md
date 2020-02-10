@@ -1,7 +1,7 @@
 # ET-Display-Home
 Node-RED manager for ESPEasy, Sonoff/Tasmota and Homie flashed devices 
 
-When INSTALLING FOT THE FIRST TIME" go to the initialization tab and run 'STEP 2' to build the SQLite database/table.
+When INSTALLING FOR THE FIRST TIME" go to the initialization tab and run 'STEP 2' to build the SQLite database/table.
 
 This flow first gets the IP range of your network. It then checks for the latest versions of ESPEasy and Sonoff/Tasmota to display and provide a link to download the version.
 
