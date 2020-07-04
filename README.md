@@ -1,4 +1,4 @@
-# ET-Display-Home V0.1.17
+# ET-Display-Home V1.0.0
 Node-RED manager for ESPEasy, Sonoff/Tasmota and Homie flashed devices 
 
 When INSTALLING FOR THE FIRST TIME" go to the initialization tab and run 'STEP 2' to build the SQLite database/table.
