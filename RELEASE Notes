@@ -1,4 +1,12 @@
 Version
+- 1.0.2 - fixed Tasmoto download link since it changed
+
+- 1.0.1 - changed date to display 'Last Seen' as y-m-d h:m:s
+  added code to remove hex at end of ESPEasy firmware value. 
+  Added a UI-Control to make sure the display is filled when you first display it.
+
+- 1.0.0  - Changed ESPeasy down link to agree with the new location. Published as v1.0.0
+
 - 0.1.17 - removed code added in v0.1.12 since 'crashes' is used in a fix in current version 
   of espeasy. Removed extra 'debug' nodes - moved source to GitHub
 
